@@ -7,6 +7,6 @@ then
     version="11"
 fi
 
-sudo add-apt-repository --yes ppa:rpardini/adoptopenjdk
+sudo add-apt-repository --yes ppa:openjdk-r/ppa
 sudo apt-get update
-sudo apt-get install "adoptopenjdk-$version-installer"
+sudo apt-get install "openjdk-$version-jdk"
