@@ -1,3 +1,22 @@
 #!/usr/bin/env bash
 
-curl -L https://git.io/get_helm.sh | bash
+version=$1
+arch=$2
+
+if [[ -z "$version" ]]
+then
+    version="3.0.1"
+fi
+if [[ -z "$arch" ]]
+then
+    arch="linux-amd64"
+fi
+
+echo "Installing helm $version"
+
+wget "https://get.helm.sh/helm-v$version-$arch.tar.gz" --directory-prefix "/tmp"
+tar -xvzf "/tmp/helm-v$version-$arch.tar.gz" --directory "/tmp"
+
+sudo mv "/tmp/$arch/helm" "/usr/local/bin/"
+rm "/tmp/helm-v$version-$arch.tar.gz"
+rm -rm "/tmp/$arch"
