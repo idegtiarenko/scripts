@@ -4,7 +4,7 @@ version=$1
 
 if [[ -z "$version" ]]
 then
-    version="v1.1.0"
+    version="v1.6.1"
 fi
 
 sudo apt-get install virtualbox

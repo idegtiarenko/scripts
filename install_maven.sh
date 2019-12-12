@@ -5,7 +5,7 @@ target="/opt/maven"
 
 if [[ -z "$version" ]]
 then
-    version="3.6.0"
+    version="3.6.3"
 fi
 
 echo "Installing maven $version"

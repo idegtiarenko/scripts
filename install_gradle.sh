@@ -5,7 +5,7 @@ target="/opt/gradle"
 
 if [[ -z "$version" ]]
 then
-    version="5.3.1"
+    version="6.0.1"
 fi
 
 echo "Installing gradle $version"
