@@ -19,4 +19,4 @@ tar -xvzf "/tmp/helm-v$version-$arch.tar.gz" --directory "/tmp"
 
 sudo mv "/tmp/$arch/helm" "/usr/local/bin/"
 rm "/tmp/helm-v$version-$arch.tar.gz"
-rm -rm "/tmp/$arch"
+rm -rf "/tmp/$arch"
