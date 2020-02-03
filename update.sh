@@ -1,5 +1,12 @@
 #!/bin/sh
 
+user=$(whoami)
+if [ "$user" = "root" ]
+then
+  echo "Running entire update script as root may break zsh repo permissions."
+  exit 1
+fi
+
 #regular
 echo "--> Updating deb packages"
 sudo apt-get update
