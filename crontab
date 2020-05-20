@@ -1,0 +1,1 @@
+0 * * * * DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=$(grep DBUS_SESSION_BUS_ADDRESS= ~/.dbus/session-bus/* | sed -e "s/DBUS_SESSION_BUS_ADDRESS=//") /usr/bin/notify-send -i mate-eyes-applet "Eye exercise time"
