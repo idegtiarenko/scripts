@@ -1,1 +1,1 @@
-0 * * * * DISPLAY=:0 DBUS_SESSION_BUS_ADDRESS=$(grep DBUS_SESSION_BUS_ADDRESS= ~/.dbus/session-bus/* | sed -e "s/DBUS_SESSION_BUS_ADDRESS=//") /usr/bin/notify-send -i mate-eyes-applet "Eye exercise time"
+0 * * * * XAUTHORITY="/home/idegtiarenko/.Xauthority" DISPLAY=":0.0" XDG_RUNTIME_DIR="/run/user/1000" /usr/bin/notify-send -i mate-eyes-applet "Eye exercise time"
