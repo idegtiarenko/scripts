@@ -4,7 +4,7 @@ version=$1
 
 if [[ -z "$version" ]]
 then
-    version="1.24.0"
+    version="1.26.0"
 fi
 
 echo "Installing docker-compose $version"
