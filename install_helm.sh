@@ -5,7 +5,7 @@ arch=$2
 
 if [[ -z "$version" ]]
 then
-    version="3.2.4"
+    version="3.3.0"
 fi
 if [[ -z "$arch" ]]
 then
