@@ -23,6 +23,6 @@ echo "Installing mate configurers"
 sudo apt-get install dconf-editor mate-tweak compiz-plugins-extra
 
 echo "Installing gimp"
-sudo apt-get install gimp gimp-plugin-registry
+sudo apt-get install gimp gimp-plugin-registry findimagedupes
 
 sudo apt-get install xplayer cheese
