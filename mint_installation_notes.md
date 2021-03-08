@@ -9,6 +9,8 @@ Using dconf-editor:
   * switch_to_workspace_left->disabled
   * switch_to_workspace_right->disabled
 
+Set `Input method` to none
+
 ## Configure compiz
 
 TBD
