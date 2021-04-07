@@ -10,7 +10,7 @@ sudo apt-get purge evolution-data-server evolution-data-server-common \
                    simple-scan \
                    hexchat hexchat-common\
                    transmission-gtk transmission-common \
-                   firefox \
+                   firefox firefox-locale-en \
                    thunderbird \
                    rhythmbox rhythmbox-data \
                    libreoffice-draw libreoffice-math libreoffice-base \

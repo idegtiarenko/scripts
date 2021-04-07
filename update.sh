@@ -11,6 +11,7 @@ fi
 echo "--> Updating deb packages"
 sudo apt-get update
 sudo apt-get upgrade
+sudo apt-get autoremove
 sudo rm -rf /var/cache/apt/archives/*.deb
 
 #zsh
