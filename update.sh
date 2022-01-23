@@ -8,9 +8,14 @@ then
 fi
 
 #regular
-echo "--> Updating deb packages"
+echo "--> Updating indices"
 sudo apt-get update
+
+echo "--> Upgrading kernel"
+sudo apt-get install linux-generic linux-headers-generic linux-image-generic
 sudo apt-get upgrade
+
+echo "-->  Cleaning post update"
 sudo apt-get autoremove
 sudo rm -rf /var/cache/apt/archives/*.deb
 
